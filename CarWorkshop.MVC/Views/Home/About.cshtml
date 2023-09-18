@@ -1,0 +1,38 @@
+﻿@model Specification
+
+    <h1>Witaj na Naszej Stronie z Listą Warsztatów Samochodowych!</h1>
+
+<section>
+    <h2>Lista Warsztatów Samochodowych</h2>
+    <p>Nasza strona zawiera obszerną listę warsztatów samochodowych, które są dostępne w Twoim regionie. Dzięki naszej bazie danych znajdziesz szeroki wybór warsztatów oferujących usługi naprawcze i serwisowe dla różnych marek i modeli samochodów. Niezależnie od tego, czy potrzebujesz rutynowej konserwacji, naprawy mechanicznej, czy też bardziej zaawansowanych usług, znajdziesz tutaj odpowiednie miejsce.</p>
+</section>
+<section>
+    <h2>Recenzje i Opinie</h2>
+    <p>Chcemy, abyś miał pewność, że wybierasz najlepszy warsztat samochodowy. Dlatego też udostępniamy recenzje i opinie od innych klientów, którzy korzystali z usług warsztatów w naszym spisie. Przeczytaj, co inni mają do powiedzenia o jakości obsługi, cenie usług oraz profesjonalizmie warsztatu.</p>
+</section>
+<section>
+    <h2>Informacje o Usługach</h2>
+    <p>Dla każdego warsztatu zamieszczamy szczegółowe informacje o oferowanych usługach. Dowiesz się, czy dany warsztat specjalizuje się w określonych naprawach lub posiada ekspertyzę w konserwacji konkretnych marek samochodów. To pomoże Ci dokładnie dopasować warsztat do swoich potrzeb.</p>
+</section>
+<section>
+    <h2>Lokalizacja i Kontakt</h2>
+    <p>Nasz serwis umożliwia również łatwe znalezienie lokalizacji każdego warsztatu oraz kontaktu z nimi. Oferujemy mapy dojazdowe oraz informacje kontaktowe, dzięki którym szybko i wygodnie skontaktujesz się z wybranym warsztatem.</p>
+</section>
+<section>
+    <h2>Aktualizacje i Promocje</h2>
+    <p>Dodatkowo, regularnie aktualizujemy naszą listę warsztatów samochodowych, aby zapewnić Ci dostęp do najnowszych informacji. Sprawdzaj również naszą stronę w celu sprawdzenia promocji i specjalnych ofert od warsztatów.</p>
+</section>
+<section>
+    <p>Jeśli jesteś właścicielem warsztatu samochodowego i chciałbyś dodać swoją firmę do naszej listy, skontaktuj się z nami, a my postaramy się to zrobić jak najszybciej.</p>
+</section>
+
+<p>Use this page to detail about your site's.</p>
+<div class="alert alert-light ">@Model.Description</div>
+
+<p>Tags:</p>
+<ul>
+    @foreach (var tag in @Model.Tags)
+    {
+        <li>@tag</li>
+    }
+</ul>

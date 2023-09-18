@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CarWorkshop.MVC.props" />
+</Project>

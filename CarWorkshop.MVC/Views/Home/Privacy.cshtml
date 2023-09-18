@@ -1,0 +1,27 @@
+﻿@model List<Person>
+@{
+    ViewData["Title"] = "Privacy Policy";
+    var dateOfYear = DateTime.Now.Year;
+    var dayOfWeek = DateTime.Now.DayOfWeek;
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+<p>It is @dateOfYear year and it is @dayOfWeek in week. </p> 
+<!--
+@switch (dayOfWeek)
+{
+    case DayOfWeek.Tuesday:
+        <p>It 's Tuesday.</p>
+        break;
+    default:
+        <p>It is not Tuesday :)</p>
+        break;
+}
+  First Name  |  Last Name
+----------------------------
+@foreach(var person in Model)
+{
+    <p>@person.FirstName | @person.LastName </p>
+}
+-->
