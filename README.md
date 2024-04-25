@@ -23,9 +23,12 @@ Aplikacja została zbudowana zgodnie z zasadami architektury MVC. Każda częś�
 ### Interfejs
 Aplikacja umożliwia logowanie oraz rejestację użytkownika do bazy z odpowiednią walidacją. Zalogowany użytkownik może przeglądać dostępne warsztaty samochodowe oraz ich usługi. Jeśli dany użytkownik jest właścicielem to może edytować swoje warsztaty. Administrator może modyfikować wszystko.
 
+Głowny panel
 ![car1](https://github.com/Kacpez/ML-NN-Weather-Forecast/assets/84182940/558712f6-76e9-4493-863a-9e5e5f99b209)
 
+Szczegóły
 ![car2](https://github.com/Kacpez/ML-NN-Weather-Forecast/assets/84182940/a55b3a3e-396f-4722-a4a5-250a7e5d6959)
 
+Zmiana
 ![car3](https://github.com/Kacpez/ML-NN-Weather-Forecast/assets/84182940/4d635d11-0e2a-479e-87cd-e94f1f62265e)
 
