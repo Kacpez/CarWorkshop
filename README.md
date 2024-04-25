@@ -1,4 +1,4 @@
-# Opis aplikacji MVC w C# (.NET)
+# Car Workshop MVC C# (.NET)
 Ta prosta aplikacja została napisana w środowisku Visual Studio przy użyciu języka C# i platformy .NET. Aplikacja wykorzystuje wzorzec architektoniczny MVC (Model-View-Controller), co umożliwia separację warstw danych, prezentacji i logiki biznesowej. Całość byłą tworzona podczas kursu C# i dot.NET.
 
 ### Cel
